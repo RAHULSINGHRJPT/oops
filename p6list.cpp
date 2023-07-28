@@ -34,12 +34,12 @@ public:
         if (f == NULL)
             cout << "\nNo elements to delete.\n";
         else
-        {
-        }
-        cout << "\n The deleted elements is :\n"
-             << f->info;
+        {  cout << "\n The deleted elements is :\n"
+          cout<< f->info;
         f = f->next;
         delete temp;
+        }
+      
         cout << "\n Deletion successfull \n";
         return;
     }
